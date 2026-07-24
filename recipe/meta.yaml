@@ -1,5 +1,5 @@
 {% set name = "xarray-lmfit" %}
-{% set version = "0.5.5" %}
+{% set version = "0.5.6" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/xarray_lmfit-{{ version }}.tar.gz
-  sha256: 0091c4c8d6b1fe9478f01eeba1153379603a50ca30930d5aa1b8f7d5b0aaffcf
+  sha256: 043560eecfd0d474dc997cc6705833be125a9439fade925ce23e68c77387b8e3
 
 build:
   noarch: python
